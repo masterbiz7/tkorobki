@@ -1,0 +1,140 @@
+@media screen and (max-width: 960px) {
+	.categories ul {
+		display: flex;
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+		height: auto;
+		margin-top: 15%;		
+	}
+}
+
+@media screen and (max-width: 768px) {
+	h2, .retailers-h2, .catalog-fresh h2 {
+		font-size: 35px;
+	}
+	.menu-responsive {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		
+	}
+	.menu-static {
+		display: none;
+	}
+	.search-form {
+		width: 250px;
+
+	}
+	.cart-and-icons {
+		margin-top: 20px;
+		margin-left: 20px;
+	}
+
+	.submenu .submenu-toggler {
+		display: flex;
+		color: #000;
+	}
+	.submenu__items {
+		display: none;
+	}
+
+	.register {
+		width: 260px;
+		font-size: 16px;
+		transform: translate(-30px, -30px);
+	}
+
+
+	.categories ul {
+		display: flex;
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+		height: auto;		
+	}
+	.categories ul li>a {		
+		font-size: 16px;		
+	}
+	
+	.list-of-goods .item-wrapper {
+		margin: 10px;
+	}
+	.percent-img {
+		display: none;
+	}
+
+	.best-offers h2 {
+		max-width: 660px;
+		width: 100%;
+		padding-top: 0;
+		padding-bottom: 20px;
+	}
+	.base-form {
+		display: none;
+	}
+	.mobile-form {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.brands {
+		margin-top: 120px;
+	}
+
+	.footer {
+		height: auto;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	h2, .retailers-h2, .catalog-fresh h2 {
+		font-size: 30px;
+		line-height: 1.2;
+	}
+	.logo-search {
+		flex-direction: column;
+	}
+	.logo {
+		margin-left: 20px;
+		margin-bottom: 20px;
+	}
+	.cart {
+		margin-right: 20px;
+	}
+	.catalog {
+		width: 180px;
+		font-size: 14px;
+	}
+	.register {
+		width: 230px;
+		font-size: 14px;
+		padding: 0;
+		transform: translate(-30px, -30px);
+	}
+	.best-offers-btn {
+		width: 280px;
+		height: 40px;
+		transform: translateX(-10px);
+	}
+	.arr-left {
+	    position: absolute;
+	    top: 10%;
+	    left: 5%;
+	    z-index: 10;
+	}
+	.arr-right {
+	    position: absolute;
+	    top: 10%;
+	    right: 5%;
+	    z-index: 10;
+	}
+	.slider div {
+		width: 200px;
+		margin: auto;
+	}
+}
